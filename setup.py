@@ -13,6 +13,8 @@ setup(
     install_requires=[
         'jsonref',
         'jsonschema',
+        'jsonpatch',
+        'jsonpath-rw'
     ],
     extras_require={
         'test': [
